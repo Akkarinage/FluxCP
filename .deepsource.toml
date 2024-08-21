@@ -6,9 +6,5 @@ name = "php"
 [[analyzers]]
 name = "javascript"
 
-[[analyzers]]
-name = "sql"
-
-exclude_files = [
-	"lib/phpmailer/**",
-]
+  [analyzers.meta]
+  environment = ["jquery"]
