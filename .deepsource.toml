@@ -1,5 +1,7 @@
 version = 1
 
+exclude_patterns = ["lib/phpmailer/*"]
+
 [[analyzers]]
 name = "php"
 
@@ -8,3 +10,6 @@ name = "javascript"
 
   [analyzers.meta]
   environment = ["jquery"]
+
+[[transformers]]
+name = "php-cs-fixer"
